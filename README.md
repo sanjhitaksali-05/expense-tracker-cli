@@ -51,25 +51,6 @@ Technology Used
 * JSON for data storage
 * CLI (Command Line Interface)
 
----
-
-Project Structure
-
-main.py → runs the application
-expense.py → handles expense logic
-budget.py → manages budget
-utils.py → helper functions
-data/ → stores JSON files
-
----
-
-How to Run
-
-1. Clone the repository
-2. Open the project folder
-3. Run the following command:
-
-python main.py
 
 ---
 
