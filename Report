@@ -1,99 +1,60 @@
-# ADVANCED EXPENSE TRACKER CLI
+ADVANCED EXPENSE TRACKER CLI
 
----
-
-## Submitted by
-
+Submitted by:
 Student Name: Sanjhi Taksali
 Reg No: 25BCE10053
 Course: Fundamentals in AI and ML (CSA2001)
 
----
-
-## TITLE
-
+TITLE
 Advanced Expense Tracker CLI
 
----
-
-## INTRODUCTION
-
+INTRODUCTION
 Managing daily expenses is an important part of personal life, but many people do not track their spending regularly. This often leads to overspending and poor financial planning.
-
 This project is a simple command-line based application that helps users track and manage their expenses easily. It allows users to record expenses, view them, and analyze spending patterns in a simple and efficient way.
 
----
-
-## MOTIVATION OF THE PROJECT
-
+MOTIVATION OF THE PROJECT
 The main motivation for this project is the common problem of not knowing where money is being spent. Many people rely on memory or manual notes, which are not reliable.
-
 This project provides a simple solution where users can store and manage their expenses in one place using a lightweight CLI tool.
 
----
-
-## PROBLEM STATEMENT
-
+PROBLEM STATEMENT
 There is a need for a simple and efficient system to track daily expenses without using complex applications. Users require a basic tool that can help them monitor their spending and manage their budget effectively.
 
----
-
-## OBJECTIVE OF THE PROJECT
-
+OBJECTIVE OF THE PROJECT
 * To develop a CLI-based expense tracking system
 * To allow users to add, view, and delete expenses
 * To provide category-wise and monthly summaries
 * To help users manage their budget
 * To give insights into spending habits
 
----
-
-## EXISTING METHODS
-
+EXISTING METHODS
 Currently, people use different methods such as:
-
 * Writing expenses in notebooks
 * Using mobile applications
 * Maintaining Excel sheets
 
----
-
-## PROS AND CONS OF EXISTING METHODS
-
+PROS AND CONS OF EXISTING METHODS
 Pros:
-
 * Easy to start
 * Some tools provide detailed analysis
 
 Cons:
-
 * Manual tracking is time-consuming
 * Applications can be complex
 * Some tools require internet access
 * Not lightweight
 
----
-
-## HARDWARE AND SOFTWARE REQUIREMENTS
-
+HARDWARE AND SOFTWARE REQUIREMENTS
 Hardware:
-
 * Basic computer or laptop
 
 Software:
-
 * Python 3
 * Command Prompt / Terminal
 * Code editor (VS Code or similar)
 
----
-
-## METHODOLOGY AND GOAL
-
+METHODOLOGY AND GOAL
 The project is developed using Python with a modular approach. Data is stored in JSON files for simplicity.
-
 Steps followed:
-
 1. Take input from user through CLI
 2. Process the data using Python functions
 3. Store data in JSON files
@@ -102,71 +63,48 @@ Steps followed:
 Goal:
 To create a simple, easy-to-use expense tracking system.
 
----
-
-## FUNCTIONAL MODULES DESIGN AND ANALYSIS
-
+FUNCTIONAL MODULES DESIGN AND ANALYSIS
 1. Expense Module
-
 * Add expense
 * View expenses
 * Delete expenses
 
 2. Budget Module
-
 * Set budget
 * Check if budget is exceeded
 
 3. Analysis Module
-
 * Category summary
 * Monthly total
 * Top spending category
 
 4. Filter Module
-
 * Filter by category
 * Filter by date
 
 5. Export Module
-
 * Export data to CSV file
 
----
-
-## ALGORITHM DEVELOPMENT
-
+ALGORITHM DEVELOPMENT
 Add Expense:
-
 1. Take amount, category, and date as input
 2. Validate input
 3. Store data in JSON file
 
 Budget Check:
-
 1. Read budget value
 2. Calculate total expenses
 3. Compare with budget
 4. Show warning if exceeded
 
----
-
-## SOFTWARE ARCHITECTURAL DIAGRAM
-
+SOFTWARE ARCHITECTURAL DIAGRAM
 User → CLI Interface → Python Modules → JSON Storage
 
----
-
-## CODING
-
+CODING
 The project is implemented using Python. It is divided into multiple files such as main.py, expense.py, and budget.py for better structure and readability.
 
----
-
-## OUTPUT
-
+OUTPUT
 The application runs in the terminal and displays a menu with options such as:
-
 * Add Expense
 * View Expenses
 * Category Summary
@@ -174,86 +112,55 @@ The application runs in the terminal and displays a menu with options such as:
 * Budget Alert
 * Export Data
 
----
-
-## KEY IMPLEMENTATIONS OUTLINE OF THE SYSTEM
-
+KEY IMPLEMENTATIONS OUTLINE OF THE SYSTEM
 * CLI-based menu system
 * JSON file storage
 * Budget alert feature
 * Filtering and analysis
 * Data export functionality
 
----
-
-## SIGNIFICANT PROJECT OUTCOMES
-
+SIGNIFICANT PROJECT OUTCOMES
 * Helps track daily expenses
 * Improves financial awareness
 * Simple and easy to use
 * Fast and lightweight
 
----
-
-## TESTING AND REFINEMENT
-
+TESTING AND REFINEMENT
 The system was tested using different inputs including invalid data.
-
 Improvements made:
-
 * Added error handling
 * Improved user input validation
 * Better output formatting
 
----
-
-## PROJECT APPLICABILITY ON REAL-WORLD APPLICATIONS
-
+PROJECT APPLICABILITY ON REAL-WORLD APPLICATIONS
 * Personal finance tracking
 * Budget management
 * Expense analysis
-* Useful for students and working professionals
+* Useful for students and working professional
 
----
-
-## CONTRIBUTION / FINDINGS OF THE PROJECT
-
+CONTRIBUTION / FINDINGS OF THE PROJECT
 * Learned how to build CLI applications
 * Understood file handling using JSON
 * Gained experience in modular programming
 * Learned how to solve real-world problems using code
 
----
-
-## LIMITATIONS / CONSTRAINTS OF THE SYSTEM
-
+LIMITATIONS / CONSTRAINTS OF THE SYSTEM
 * No graphical interface
 * Single-user system
 * Data stored locally
 * No cloud integration
 
----
-
-## CONCLUSIONS
-
+CONCLUSION
 The project successfully provides a simple solution for tracking expenses. It shows how basic programming concepts can be used to solve real-life problems effectively.
 
----
-
-## FUTURE ENHANCEMENTS
-
+FUTURE ENHANCEMENTS
 * Add graphical user interface
 * Add cloud storage
 * Multi-user support
 * Data visualization
 * AI-based suggestions
 
----
-
-## REFERENCES
-
+REFERENCES
 * Python documentation
 * JSON documentation
 * Course materials
-
----
